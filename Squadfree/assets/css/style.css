@@ -34,7 +34,7 @@ h6 {
 }
 
 #main {
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -418,7 +418,7 @@ h6 {
   background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)), url("../img/bk.jpg") top center;
   background-size: cover;
   position: relative;
-  margin-bottom: -90px;
+  /* margin-bottom: -90px; */
 }
 
 #hero .hero-container {
@@ -489,6 +489,64 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+}
+
+/*--------------------------------------------------------------
+# location
+--------------------------------------------------------------*/
+.location .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.location .icon-box::before {
+  content: "";
+  position: absolute;
+  background: white;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.location .icon-box:hover::before {
+  background: #67b0d1;
+  top: 0;
+  border-radius: 0px;
+}
+
+.location h4{
+  text-align: center;
+}
+
+
+.location .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.location .description i {
+  color: #67b0d1;
+  margin-right: 8px;
+}
+
+.location .icon-box:hover .title a,
+.location .icon-box:hover .description {
+  color: #fff;
+}
+
+.location .icon-box:hover .icon i {
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -620,6 +678,7 @@ section {
 
 .about .content p {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .about .content .about-btn {
@@ -650,7 +709,9 @@ section {
 .about .icon-boxes .icon-box i {
   font-size: 40px;
   color: #67b0d1;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  flex: 0 0 auto; 
+  margin-right: 10px;
 }
 
 .about .icon-boxes .icon-box h4 {
@@ -680,6 +741,8 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
+  flex-grow: 1;
+  flex-basis: 0;
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -720,12 +783,13 @@ section {
 }
 
 .services .title {
-  font-weight: 700;
+  font-weight: 800;
   margin-bottom: 15px;
   font-size: 18px;
+  z-index: 1;
 }
 
-.services .title a {
+.services .title h4 {
   color: #111;
 }
 
@@ -742,6 +806,50 @@ section {
 
 .services .icon-box:hover .icon i {
   color: #fff;
+}
+
+.read-more {
+  color: #000000;
+  text-decoration: none; /* No underline initially */
+  position: relative; /* For absolute positioning */
+  font-size: 14px;
+  z-index: 1;
+  position: absolute; 
+  bottom: 10px;
+  left: 50%; 
+  transform: translateX(-50%);
+  transition: color 0.3s;
+  z-index: 1;
+}
+
+.read-more::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px; 
+  background: #ff4081;
+  color: #fff;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s;
+}
+
+.read-more:hover::after {
+  width: 100%;
+}
+
+.icon-box .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the box */
+  opacity: 0.3;
+  z-index: -1; /* Behind other content */
 }
 
 /*--------------------------------------------------------------
@@ -796,10 +904,71 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Customers
+--------------------------------------------------------------*/
+.customers {
+  padding-top: 40px;
+  position: relative;
+}
+
+.customers .portfolio-wrap {
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.customers .portfolio-wrap img {
+  width: 80%;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.customers .portfolio-wrap:hover img {
+  transform: scale(1.05);
+}
+
+.customers .portfolio-links {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.customers .portfolio-wrap:hover .portfolio-links {
+  bottom: 0;
+}
+
+.customers .portfolio-links a {
+  font-size: 28px;
+  background: rgba(103, 176, 209, 0.75);
+  color: white;
+  text-align: center;
+  margin: 0; 
+}
+
+.customers .portfolio-links a:hover {
+  background: rgba(103, 176, 209, 0.95);
+}
+
+.customers .portfolio-wrap img {
+  cursor: pointer; 
+}
+
+.customers .portfolio-wrap {
+  overflow: hidden;  
+  transition: 0.3s;
+}
+
+
+/*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/technology-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -830,6 +999,100 @@ section {
 }
 
 .cta .cta-btn:hover {
+  border-color: #fff;
+}
+
+/*--------------------------------------------------------------
+# subservices
+--------------------------------------------------------------*/
+.subservices {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(103, 176, 209, 0.8)), url("../img/about-bg.jpg") fixed center center;
+  z-index: -1;
+  background-size: cover;
+  padding: 60px 0;
+  /* width: 100%;
+  height: 100vh; */
+  position: relative;
+  margin-bottom: -100px;
+
+}
+
+.subservices h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: 50px;
+}
+
+.subservices p {
+  color: #fff;
+}
+
+.subservices .subservices-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+.subservices .subservices-btn:hover {
+  border-color: #fff;
+}
+
+.subservices-img {
+  border-radius: 15px; 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+  transition: all 0.3s ease-in-out; 
+}
+
+.subservices-img:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); 
+}
+
+/*--------------------------------------------------------------
+# banner
+--------------------------------------------------------------*/
+.banner {
+  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.banner h3 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.banner p {
+  color: #fff;
+}
+
+.banner .banner-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+.banner .banner-btn:hover {
   border-color: #fff;
 }
 
@@ -999,6 +1262,18 @@ section {
   padding: 0;
 }
 
+.slide-title {
+  position: absolute; 
+  bottom: 10px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  color: white; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1107,6 +1382,7 @@ section {
 
 .team .member .pic {
   overflow: hidden;
+  align-items: center;
 }
 
 .team .member .member-info {
