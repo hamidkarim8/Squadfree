@@ -641,7 +641,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# about
 --------------------------------------------------------------*/
 .about {
   background: url("../img/about-bg.jpg") center center no-repeat;
@@ -1736,4 +1736,170 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+}
+
+/*--------------------------------------------------------------
+# NDT
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# about-ndt
+--------------------------------------------------------------*/
+.about-ndt {
+  background: linear-gradient(rgba(21, 31, 74, 1), rgba(103, 176, 209, 0.8)), url("../img/about-bg.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+}
+
+.about-ndt::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.75);
+  z-index: 9;
+}
+
+.about-ndt .container {
+  position: relative;
+  z-index: 10;
+}
+
+.about-ndt .content {
+  padding: 30px 30px 30px 0;
+}
+
+.about-ndt .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #2f4d5a;
+  margin-bottom: 30px;
+}
+
+.about-ndt .content p {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-ndt .content .about-ndt-btn {
+  display: inline-block;
+  background: #151F4A;
+  padding: 6px 44px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.about-ndt .content .about-ndt-btn i {
+  font-size: 18px;
+  position: absolute;
+  right: 18px;
+  top: 9px;
+}
+
+.about-ndt .content .about-ndt-btn:hover {
+  background: #7bbad7;
+}
+
+.about-ndt .icon-boxes .icon-box {
+  margin-top: 30px;
+}
+
+.about-ndt .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #151F4A;
+  /* margin-bottom: 10px; */
+  flex: 0 0 auto; 
+  margin-right: 10px;
+}
+
+.about-ndt .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.about-ndt .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+
+@media (max-width: 1200px) {
+  .about-ndt .content {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-ndt {
+    text-align: center;
+  }
+}
+
+/*--------------------------------------------------------------
+# customer
+--------------------------------------------------------------*/
+/* .customer {
+  padding-top: 40px;
+  position: relative;
+} */
+
+.customer .portfolio-wrap {
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.customer .portfolio-wrap img {
+  transition: all 0.3s ease-in-out;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.customer .portfolio-wrap:hover img {
+  transform: scale(1.05);
+}
+
+.customer .portfolio-links {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.customer .portfolio-wrap:hover .portfolio-links {
+  bottom: 0;
+}
+
+.customer .portfolio-links a {
+  font-size: 28px;
+  background: rgba(103, 176, 209, 0.75);
+  color: white;
+  text-align: center;
+}
+
+.customer .portfolio-links a:hover {
+  background: rgba(103, 176, 209, 0.95);
+}
+
+.customer-label {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
+  color: #333;
+  width: 100%;
 }
