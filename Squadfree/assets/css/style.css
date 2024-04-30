@@ -1354,6 +1354,9 @@ section {
   bottom: -20px;
   left: calc(50% - 20px);
 }
+.testimonials .testimonial-item p:hover {
+  box-shadow: 12px 12px 20px rgba(21, 31, 74, 0.8);
+}
 
 .testimonials .swiper-pagination {
   margin-top: 20px;
@@ -2020,3 +2023,55 @@ section {
 
 
 
+/*--------------------------------------------------------------
+# contact
+--------------------------------------------------------------*/
+
+.contact-person {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact-card {
+  background: white;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-card:hover {
+  box-shadow: 12px 12px 20px rgba(21, 31, 74, 0.8);
+}
+
+.contact-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.contact-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-info h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+.contact-info a {
+  color: #67b0d1;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-info a:hover {
+  color: #333;
+}
