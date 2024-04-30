@@ -23,6 +23,7 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <script async src="//www.instagram.com/embed.js"></script>
 
     <!-- =======================================================
   * Template Name: Squadfree

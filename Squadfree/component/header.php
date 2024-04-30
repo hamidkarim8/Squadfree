@@ -40,14 +40,14 @@
           <li><a class="nav-link scrollto" href="index.php#portfolio">Certification</a></li>
           <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
 
-          <li class="dropdown"><a class="nav-link scrollto" href="index.php#media"><span>Media</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a class="nav-link scrollto"><span>Media</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="gallery.php">Gallery</a></li>
               <li><a href="news.php">News</a></li>
-              <li><a href="newsletter.php">Newsletter</a></li>
+              <!-- <li><a href="newsletter.php">Newsletter</a></li> -->
             </ul>
           </li>
-          <li class="dropdown"><a class="nav-link scrollto" href="index.php#career"><span>Career</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a class="nav-link scrollto"><span>Career</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="job.php">Job Opportunity</a></li>
               <li><a href="protege.php">Protegee Apply</a></li>
