@@ -1,136 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<?php include './component/head.php' ?>
 
-  <title>G7Aerospace</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
-  <link href="assets/img/g7aerospacesdnbhd_logo.jpeg" rel="icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Squadfree
-  * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-  * Updated: Mar 17 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
 
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-transparent">
-    <div class="container d-flex align-items-center justify-content-between position-relative">
-
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>G7Aerospace</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li class="dropdown"><a class="nav-link scrollto" href="#about"><span>About G7</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="company-profile.html">Company Profile</a></li>
-              <li><a href="corporate-info.html">Corporate Info</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a class="nav-link scrollto" href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="defenceandsecurity.html">Defence Security</a></li>
-              <li><a href="market.html">Market-Specific Solution</a></li>
-              <!-- <li class="dropdown"><a href="#"><span>Market-Specific Solution</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-
-                  <li><a href="#">Tools System & Supply</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li> -->
-              <li><a href="tool.html">Tools System & Supply</a></li>
-              <li><a href="technology.html">Technology Design & Development </a></li>
-              <li class="dropdown"><a class="nav-link scrollto active" href="ndt.html"><span>Non-Destructive Testing (NDT)</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a class="nav-link scrollto" href="ndt.html#about-ndt">About NDT</a></li>
-                  <li><a class="nav-link scrollto" href="ndt.html#customer">Our Customer</a></li>
-                  <li><a class="nav-link scrollto" href="ndt.html#method">Method</a></li>
-                  <li><a class="nav-link scrollto" href="ndt.html#certification">Certification</a></li>
-                  <li><a class="nav-link scrollto" href="ndt.html#equipment">NDT Equipment</a></li>
-                  <li><a class="nav-link scrollto" href="ndt.html#testimonials">Testimony</a></li>
-                  <li><a class="nav-link scrollto" href="ndt.html#contact-person">Contact Person</a></li>
-                </ul>
-              </li>
-              <!-- <li><a href="#">Drop Down 4</a></li> -->
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#portfolio">Certification</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-
-          <!-- <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li>
-                <strong>Column 1</strong>
-                <a href="#">Column 1 link 1</a>
-                <a href="#">Column 1 link 2</a>
-                <a href="#">Column 1 link 3</a>
-              </li>
-              <li>
-                <strong>Column 2</strong>
-                <a href="#">Column 2 link 1</a>
-                <a href="#">Column 2 link 2</a>
-                <a href="#">Column 3 link 3</a>
-              </li>
-              <li>
-                <strong>Column 3</strong>
-                <a href="#">Column 3 link 1</a>
-                <a href="#">Column 3 link 2</a>
-                <a href="#">Column 3 link 3</a>
-              </li>
-              <li>
-                <strong>Column 4</strong>
-                <a href="#">Column 4 link 1</a>
-                <a href="#">Column 4 link 2</a>
-                <a href="#">Column 4 link 3</a>
-              </li>
-              <li>
-                <strong>Column 5</strong>
-                <a href="#">Column 5 link 1</a>
-                <a href="#">Column 5 link 2</a>
-                <a href="#">Column 5 link 3</a>
-              </li>
-            </ul>
-          </li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  <?php include './component/header.php' ?>
+  <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -196,7 +74,7 @@
             <p>
               Established in 2000 and registered with the Malaysian Ministry of Finance, G7 Aerospace was established to provide effective solutions to the military and commercial aerospace market.
             </p>
-            <a href="company-profile.html" class="about-btn">More About us <i class="bx bx-chevron-right"></i></a>
+            <a href="company-profile.php" class="about-btn">More About us <i class="bx bx-chevron-right"></i></a>
           </div>
         </div>
 
@@ -331,7 +209,7 @@
               <img src="assets/img/services/service1.png" class="background-image img-fluid" alt="Defend & Security" />
               <div class="icon"><i class="bx bx-shield"></i></div>
               <h4 class="title">Defence & Security</h4>
-              <p><a href="defenceandsecurity.html" class="read-more">Read More</a></p>
+              <p><a href="defenceandsecurity.php" class="read-more">Read More</a></p>
             </div>
           </div>
 
@@ -340,7 +218,7 @@
               <img src="assets/img/services/service2.png" class="background-image img-fluid" alt="Market-Specific Solution" />
               <div class="icon"><i class="bx bx-briefcase "></i></div>
               <h4 class="title">Market-Specific Solution</h4>
-              <p><a href="market.html" class="read-more">Read More</a></p>
+              <p><a href="market.php" class="read-more">Read More</a></p>
             </div>
           </div>
 
@@ -349,7 +227,7 @@
               <img src="assets/img/services/service3.png" class="background-image img-fluid" alt="Tools System & Supply" />
               <div class="icon"><i class="bx bx-wrench "></i></div>
               <h4 class="title">Tools System & Supply</h4>
-              <p><a href="tool.html" class="read-more">Read More</a></p>
+              <p><a href="tool.php" class="read-more">Read More</a></p>
             </div>
           </div>
         </div>
@@ -359,7 +237,7 @@
               <img src="assets/img/services/service4.png" class="background-image img-fluid" alt="Technology Design & Development" />
               <div class="icon"><i class="bx bx-laptop "></i></div>
               <h4 class="title">Technology Design & Development</h4>
-              <p><a href="technology.html" class="read-more">Read More</a></p>
+              <p><a href="technology.php" class="read-more">Read More</a></p>
             </div>
           </div>
 
@@ -368,7 +246,7 @@
               <img src="assets/img/services/service5.jpg" class="background-image img-fluid" alt="Non-Destructive Testing" />
               <div class="icon"><i class="bx bx-check-shield"></i></div>
               <h4 class="title">Non-Destructive Testing</h4>
-              <p><a href="ndt.html" class="read-more">Read More</a></p>
+              <p><a href="ndt.php" class="read-more">Read More</a></p>
             </div>
           </div>
         </div>
@@ -448,8 +326,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sijil2.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/sijil2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/sijil2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -458,8 +336,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sijil6.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/sijil6.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/sijil6.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -468,8 +346,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sijil3.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/sijil3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/sijil3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -477,8 +355,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sijil8.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/sijil8.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/sijil8.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -487,8 +365,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sijil1.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/sijil1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/sijil1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -497,8 +375,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sijil7.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/sijil7.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/sijil7.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -507,8 +385,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sijil4.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/sijil4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/sijil4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -517,8 +395,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sijil5.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/sijil5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/sijil5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -528,8 +406,8 @@
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/sijil9.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/sijil9.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/sijil9.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
           </div>
@@ -821,79 +699,8 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
-              <h3>G7 AEROSPACE SDN BHD</h3>
-              <p class="pb-3"><em>AEROSPACE & DEFENSE SOLUTIONS PROVIDER.</em></p>
-              <p>
-                G7 Aerospace Sdn. Bhd., A-2-01, CoPlace 1, 2270, Jalan Usahawan 2, Cyberjaya <br>
-                63000 Cyberjaya, Selangor<br><br>
-                <strong>Phone:</strong> + (60) 3 8322 6393<br>
-                <strong>Email:</strong> support@g7aerospace.com.my<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Services</a></li>
-              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="defenceandsecurity.html">Defence & Security</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="market.html">Market-Specific Solution</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="tool.html">Tools System & Supply</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="technology.html">Technology Design & Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="ndt.html">Non-Destructive Testing</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Can ask us any question</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>g7aerospace</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+  <?php include './component/footer.php' ?>
+  <!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

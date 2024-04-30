@@ -1763,7 +1763,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.75);
+  /* background: rgba(255, 255, 255, 0.75); */
   z-index: 9;
 }
 
@@ -1777,15 +1777,16 @@ section {
 }
 
 .about-ndt .content h3 {
+  color: #fff;
+  font-size: 28px;
   font-weight: 700;
-  font-size: 34px;
-  color: #2f4d5a;
   margin-bottom: 30px;
 }
 
 .about-ndt .content p {
   margin-bottom: 30px;
   text-align: center;
+  color: #fff;
 }
 
 .about-ndt .content .about-ndt-btn {
