@@ -38,12 +38,8 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="index.php#portfolio">Certification</a></li>
-          <li class="dropdown"><a class="nav-link scrollto" href="index.php#team"><span>Team</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="top-management.php">Top Management</a></li>
-              <li><a href="management-team.php">Management Team</a></li>
-            </ul>
-          </li>
+          <li><a class="nav-link scrollto" href="index.php#team">Team</a></li>
+
           <li class="dropdown"><a class="nav-link scrollto" href="index.php#media"><span>Media</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="gallery.php">Gallery</a></li>

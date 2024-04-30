@@ -33,15 +33,26 @@
   </section>
 
 
-  <!-- Corporate Info Section -->
-  <section id="company-profile" class="company-profile section-bg">
-    <div class="container">
-      <div class="section-title" data-aos="fade-up" data-aos-delay="100">
-        <h2>Corporate Info</h2>
-        <p>Corporate info.</p>
+<!-- ======= Corporate Info Section ======= -->
+<section id="corporate-info" class="corporate-info">
+  <div class="container">
+
+    <div class="section-title" data-aos="fade-up">
+      <h2>Corporate Info</h2>
+      <p>Discover more about our company through our corporate video. Learn about our vision, mission, and the values that drive us.</p>
+    </div>
+
+    <div class="video-container" data-aos="zoom-in">
+      <!-- Styled container for embedded video -->
+      <div class="video-wrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1jgiEcrcam0?si=S83AN2n5i_zY6O33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
-  </section>
+
+  </div>
+</section>
+
+
 
   <!-- ======= Footer ======= -->
   <?php include './component/footer.php' ?>

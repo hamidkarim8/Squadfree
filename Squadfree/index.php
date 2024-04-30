@@ -12,12 +12,49 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div class="hero-container" data-aos="fade-up">
-      <h1>Welcome!</h1>
-      <h2>G7 Aerospace is committed to deliver high quality broad spectrum of defense, security and commercial aerospace products and services through our local capability development programs.</h2>
-      <a href="#location" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+
+    <div class="container" data-aos="fade-up">
+
+      <section id="portfolio-details" class="portfolio-details">
+
+        <div class="container">
+
+          <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+
+              <div class="portfolio-details-slider swiper">
+
+                <div class="swiper-wrapper align-items-center">
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/bk.jpg" alt="">
+                  </div>
+
+                  <div class="swiper-slide">
+                    <img src="assets/img/hero-bg.jpg" alt="">
+                  </div>
+
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
     </div>
-  </section><!-- End Hero -->
+
+    </div>
+  </section><!-- End Hero Section -->
+
 
   <!-- ======= Location Section ======= -->
   <section id="location" class="location">
@@ -501,73 +538,158 @@
       </div>
     </section>End Testimonials Section -->
 
-    <!-- ======= Team Section ======= -->
+    <!-- ======= Team Sectionn ======= -->
     <section id="team" class="team section-bg">
       <div class="container">
 
         <div class="section-title" data-aos="fade-in" data-aos-delay="100">
           <h2>Leadership</h2>
-          <p>Colonel (Retired) Datuk Rosdi Mahmud (RMAF), has more than 40 years of experience in military and corporate world. He is currently the Executive Director to G7 Aerospace Sdn Bhd. He has degrees in Physics in 1980 and Aerospace Engineering in 1983 from University of Melbourne and University of Sydney, Australia respectively. Datuk Rosdi obtained his Masters of Science in Reliability from Cranfield University UK in 1992.</p>
+          <p>
+            Colonel (Retired) Datuk Rosdi Mahmud (RMAF), has more than 40 years of experience in the military and corporate world. He is currently the Executive Director of G7 Aerospace Sdn Bhd.
+          </p>
         </div>
 
-        <div class="row">
-
-          <div class="row justify-content-center">
-            <div class="col-lg-4 text-center">
-              <div class="member" data-aos="fade-up">
-                <div class="pic" style="text-align: center;">
-                  <img src="assets/img/team/leader.jpeg" class="img-fluid" alt="" style="max-width: 100%; height: auto;">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 text-center">
+            <div class="member" data-aos="fade-up">
+              <div class="pic">
+                <img src="assets/img/team/leader.jpeg" class="img-fluid" alt="" style="max-width: 100%; height: auto;">
+              </div>
+              <div class="member-info">
+                <h4>Datuk Rosdi Mahmud</h4>
+                <span>Executive Director</span>
+                <div class="social">
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                  <a href="#"><i class="bi bi-facebook"></i></a>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-linkedin"></i></a>
                 </div>
-                <div class="member-info" style="text-align: center;">
-                  <h4>Datuk Rosdi Mahmud</h4>
-                  <span>Executive Director</span>
-                  <div class="social" style="display: inline-block;">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordion for Top Management and Management Team -->
+        <div class="accordion" id="teamAccordion">
+
+          <!-- Top Management Section -->
+          <div id="top-management">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Top Management
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#teamAccordion">
+                <div class="accordion-body">
+                  <!-- Top Management Section -->
+                  <div class="row justify-content-center">
+                    <!-- COO Level 1 -->
+                    <div class="col-lg-4 text-center">
+                      <div class="member" data-aos="fade-up">
+                        <div class="pic">
+                          <img src="assets/img/team/leader.jpeg" class="img-fluid rounded-circle" alt="" style="max-width: 150px;">
+                        </div>
+                        <div class="member-info">
+                          <h4>John Doe</h4>
+                          <span>Chief Operating Officer</span>
+                          <div class="social">
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- HOD Level 2 -->
+                    <div class="col-lg-12">
+                      <div class="row justify-content-center mt-4 mb-4">
+                        <!-- Head of Department 1 -->
+                        <div class="col-lg-4 text-center">
+                          <div class="member" data-aos="fade-up" data-aos-delay="100">
+                            <div class="pic">
+                              <img src="assets/img/team/team-1.jpg" class="img-fluid rounded-circle" alt="" style="max-width: 100px;">
+                            </div>
+                            <div class="member-info">
+                              <h4>Jane Smith</h4>
+                              <span>Head of Department</span>
+                              <div class="social">
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Head of Department 2 -->
+                        <div class="col-lg-4 text-center">
+                          <div class="member" data-aos="fade-up" data-aos-delay="200">
+                            <div class="pic">
+                              <img src="assets/img/team/team-2.jpg" class="img-fluid rounded-circle" alt="" style="max-width: 100px;">
+                            </div>
+                            <div class="member-info">
+                              <h4>Michael Brown</h4>
+                              <span>Head of Department</span>
+                              <div class="social">
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Head of Department 3 -->
+                        <div class="col-lg-4 text-center">
+                          <div class="member" data-aos="fade-up" data-aos-delay="300">
+                            <div class="pic">
+                              <img src="assets/img/team/team-3.jpg" class="img-fluid rounded-circle" alt="" style="max-width: 100px;">
+                            </div>
+                            <div class="member-info">
+                              <h4>Emily Johnson</h4>
+                              <span>Head of Department</span>
+                              <div class="social">
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="150">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Datin Hadiah Salleh</h4>
-                <span>Director</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+          <!-- Management Team Section -->
+          <div id="management-team">
+            <div class="accordion-item mt-4">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Management Team
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#teamAccordion">
+                <div class="accordion-body text-center">
+                  <img src="assets/img/sample-chart.png" alt="Management Team" class="img-fluid rounded" style="max-width: 800px;">
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section>
 
 
     <!-- ======= Partners Section ======= -->

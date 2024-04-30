@@ -416,7 +416,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(21, 31, 74, 1), rgba(103, 176, 209, 0.8)), url("../img/bk.jpg") top center;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(21,31, 74, 0.8)), url("../img/about-bg.jpg") top center;
   background-size: cover;
   position: relative;
   /* margin-bottom: -90px; */
@@ -2128,3 +2128,171 @@ section {
   background: #5a9bb3;
 }
 
+/*--------------------------------------------------------------
+# company-info
+--------------------------------------------------------------*/
+.corporate-info {
+  padding: 60px 0;
+  background: #f7f7f7;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 28px;
+  }
+
+  .section-title p {
+    font-size: 16px;
+  }
+}
+
+/*--------------------------------------------------------------
+# accordion
+--------------------------------------------------------------*/
+
+.accordion-button {
+  background-color: #ffffff;
+  border: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:hover {
+  box-shadow: 12px 12px 20px rgba(21, 31, 74, 0.8);
+}
+
+.accordion-button.collapsed {
+  color: #6c757d;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #007bff;
+}
+
+.accordion-body {
+  background-color: #f8f9fa;
+}
+
+/*--------------------------------------------------------------
+# top-management
+--------------------------------------------------------------*/
+.top-management .card {
+  background-color: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.top-management .card-body {
+  padding: 20px;
+}
+
+.top-management .card img {
+  border-radius: 50%;
+}
+
+.top-management .card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.top-management .card span {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.top-management .card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.top-management .accordion-button {
+  background-color: #f8f9fa;
+  border: none;
+}
+
+.top-management .accordion-button:focus {
+  box-shadow: none;
+}
+
+.top-management .accordion-button:not(.collapsed) {
+  color: #007bff;
+}
+
+.top-management .accordion-button.collapsed {
+  color: #6c757d;
+}
+
+/*--------------------------------------------------------------
+# management-team
+--------------------------------------------------------------*/
+.management-team .accordion-item {
+  background: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.management-team .accordion-button {
+  background: #ffffff;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.management-team .accordion-button:focus {
+  outline: none;
+  background: #e0e0e0;
+}
+
+.management-team .accordion-collapse {
+  padding: 16px;
+}
+
+.management-team .accordion-body {
+  text-align: center;
+}
+
+.management-team .img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
