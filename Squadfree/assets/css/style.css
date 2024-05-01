@@ -47,7 +47,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 998;
-  background: #151F4A;
+  background: #151f4a;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -176,7 +176,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   background: rgba(255, 255, 255, 0.2);
 }
 
@@ -213,11 +213,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #67b0d1;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -253,7 +253,7 @@ h6 {
 }
 
 .navbar .megamenu ul li a,
-.navbar .megamenu ul li:hover>a {
+.navbar .megamenu ul li:hover > a {
   color: rgba(var(--color-white-rgb), 0.5);
   background: none;
   padding: 8px 10px;
@@ -262,10 +262,10 @@ h6 {
 .navbar .megamenu ul li a:hover,
 .navbar .megamenu ul li .active,
 .navbar .megamenu ul li .active:hover {
-  color: #151F4A;
+  color: #151f4a;
 }
 
-.navbar .megamenu:hover>ul {
+.navbar .megamenu:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -277,7 +277,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -289,7 +289,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -355,8 +355,8 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
-  color: #151F4A;
+.navbar-mobile li:hover > a {
+  color: #151f4a;
 }
 
 .navbar-mobile .getstarted,
@@ -390,16 +390,16 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #151F4A;
+.navbar-mobile .dropdown ul li:hover > a {
+  color: #151f4a;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
 .navbar-mobile .megamenu ul li a,
-.navbar-mobile .megamenu ul li:hover>a {
+.navbar-mobile .megamenu ul li:hover > a {
   color: rgba(var(--color-white-rgb), 0.5);
   background: none;
 }
@@ -407,7 +407,7 @@ h6 {
 .navbar-mobile .megamenu ul li a:hover,
 .navbar-mobile .megamenu ul li .active,
 .navbar-mobile .megamenu ul li .active:hover {
-  color: #151F4A;
+  color: #151f4a;
 }
 
 /*--------------------------------------------------------------
@@ -416,7 +416,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 1), rgba(21,31, 74, 0.8)), url("../img/about-bg.jpg") top center;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(21, 31, 74, 0.8)),
+    url("../img/about-bg.jpg") top center;
   background-size: cover;
   position: relative;
   /* margin-bottom: -90px; */
@@ -519,15 +520,14 @@ h6 {
 }
 
 .location .icon-box:hover::before {
-  background: #151F4A;
+  background: #151f4a;
   top: 0;
   border-radius: 0px;
 }
 
-.location .h4 .a{
+.location .h4 .a {
   text-align: center;
 }
-
 
 .location .description {
   font-size: 15px;
@@ -537,7 +537,7 @@ h6 {
 }
 
 .location .description i {
-  color: #151F4A;
+  color: #151f4a;
   margin-right: 8px;
 }
 
@@ -615,11 +615,11 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #6c757d;
@@ -684,7 +684,7 @@ section {
 
 .about .content .about-btn {
   display: inline-block;
-  background: #151F4A;
+  background: #151f4a;
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -709,9 +709,9 @@ section {
 
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #151F4A;
+  color: #151f4a;
   /* margin-bottom: 10px; */
-  flex: 0 0 auto; 
+  flex: 0 0 auto;
   margin-right: 10px;
 }
 
@@ -815,19 +815,19 @@ section {
   position: relative; /* For absolute positioning */
   font-size: 14px;
   z-index: 1;
-  position: absolute; 
+  position: absolute;
   bottom: 10px;
-  left: 50%; 
+  left: 50%;
   transform: translateX(-50%);
   transition: color 0.3s;
   z-index: 1;
 }
 
 .read-more::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
-  height: 2px; 
+  height: 2px;
   background: #ff4081;
   color: #fff;
   bottom: -5px;
@@ -868,7 +868,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 44px;
-  color: #151F4A;
+  color: #151f4a;
   float: left;
   line-height: 0;
 }
@@ -901,7 +901,7 @@ section {
 }
 
 .counts .count-box a:hover {
-  color: #151F4A;
+  color: #151f4a;
 }
 
 /*--------------------------------------------------------------
@@ -948,7 +948,7 @@ section {
   background: rgba(103, 176, 209, 0.75);
   color: white;
   text-align: center;
-  margin: 0; 
+  margin: 0;
 }
 
 .customers .portfolio-links a:hover {
@@ -956,20 +956,20 @@ section {
 }
 
 .customers .portfolio-wrap img {
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .customers .portfolio-wrap {
-  overflow: hidden;  
+  overflow: hidden;
   transition: 0.3s;
 }
-
 
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(21, 31, 74, 1), rgba(103, 176, 209, 0.8)), url("../img/technology-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(21, 31, 74, 1), rgba(103, 176, 209, 0.8)),
+    url("../img/technology-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1007,7 +1007,8 @@ section {
 # subservices
 --------------------------------------------------------------*/
 .subservices {
-  background: linear-gradient(rgba(0, 0, 0, 1), rgba(21,31, 74, 0.8)), url("../img/about-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(21, 31, 74, 0.8)),
+    url("../img/about-bg.jpg") fixed center center;
   z-index: -1;
   background-size: cover;
   padding: 60px 0;
@@ -1015,7 +1016,6 @@ section {
   height: 100vh; */
   position: relative;
   margin-bottom: -100px;
-
 }
 
 .subservices h3 {
@@ -1049,21 +1049,22 @@ section {
 }
 
 .subservices-img {
-  border-radius: 15px; 
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
-  transition: all 0.3s ease-in-out; 
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
 }
 
 .subservices-img:hover {
-  transform: scale(1.05); 
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); 
+  transform: scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
 }
 
 /*--------------------------------------------------------------
 # banner
 --------------------------------------------------------------*/
 .banner {
-  background: linear-gradient(rgba(21, 31, 74, 1), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(21, 31, 74, 1), rgba(103, 176, 209, 0.8)),
+    url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -1181,7 +1182,7 @@ section {
   background: rgba(103, 176, 209, 0.95);
 }
 
-.portfolio .portfolio-wrap .portfolio-links a+a {
+.portfolio .portfolio-wrap .portfolio-links a + a {
   border-left: 1px solid #8ec4dd;
 }
 
@@ -1214,16 +1215,22 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #151F4A;
+  border: 1px solid #151f4a;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #151F4A;
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
+  background-color: #151f4a;
 }
 
 .portfolio-details .portfolio-info {
@@ -1245,7 +1252,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1264,14 +1271,14 @@ section {
 }
 
 .slide-title {
-  position: absolute; 
-  bottom: 10px; 
-  left: 50%; 
-  transform: translateX(-50%); 
-  color: white; 
-  background-color: rgba(0, 0, 0, 0.5); 
-  padding: 5px 10px; 
-  border-radius: 5px; 
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
   text-align: center;
 }
 
@@ -1368,11 +1375,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #151F4A;
+  border: 1px solid #151f4a;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #151F4A;
+  background-color: #151f4a;
 }
 
 /*--------------------------------------------------------------
@@ -1443,7 +1450,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #151F4A;
+  color: #151f4a;
 }
 
 .team .member .social i {
@@ -1474,7 +1481,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #151F4A;
+  color: #151f4a;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f0f7fa;
@@ -1509,7 +1516,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1550,7 +1557,7 @@ section {
 
 .contact .php-email-form input::focus,
 .contact .php-email-form textarea::focus {
-  background-color: #151F4A;
+  background-color: #151f4a;
 }
 
 .contact .php-email-form input {
@@ -1561,15 +1568,15 @@ section {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
-  background: #151F4A;
+.contact .php-email-form button[type="submit"] {
+  background: #151f4a;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #8ec4dd;
 }
 
@@ -1602,7 +1609,7 @@ section {
   margin-bottom: 15px;
   background: white;
   color: #2f4d5a;
-  border-top: 4px solid #151F4A;
+  border-top: 4px solid #151f4a;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1638,7 +1645,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #151F4A;
+  background: #151f4a;
   color: #fff;
   text-decoration: none;
 }
@@ -1697,13 +1704,13 @@ section {
   border-radius: 4;
 }
 
-#footer .footer-top .footer-newsletter form input[type=email] {
+#footer .footer-top .footer-newsletter form input[type="email"] {
   border: 0;
   padding: 4px;
   width: calc(100% - 110px);
 }
 
-#footer .footer-top .footer-newsletter form input[type=submit] {
+#footer .footer-top .footer-newsletter form input[type="submit"] {
   position: absolute;
   top: 0;
   right: 0;
@@ -1712,13 +1719,13 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #151F4A;
+  background: #151f4a;
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
 }
 
-#footer .footer-top .footer-newsletter form input[type=submit]:hover {
+#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
   background: #409cc5;
 }
 
@@ -1745,12 +1752,12 @@ section {
 # NDT
 --------------------------------------------------------------*/
 
-
 /*--------------------------------------------------------------
 # about-ndt
 --------------------------------------------------------------*/
 .about-ndt {
-  background: linear-gradient(rgba(21, 31, 74, 1), rgba(103, 176, 209, 0.8)), url("../img/about-bg.jpg") center center no-repeat;
+  background: linear-gradient(rgba(21, 31, 74, 1), rgba(103, 176, 209, 0.8)),
+    url("../img/about-bg.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -1791,7 +1798,7 @@ section {
 
 .about-ndt .content .about-ndt-btn {
   display: inline-block;
-  background: #151F4A;
+  background: #151f4a;
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -1816,9 +1823,9 @@ section {
 
 .about-ndt .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #151F4A;
+  color: #151f4a;
   /* margin-bottom: 10px; */
-  flex: 0 0 auto; 
+  flex: 0 0 auto;
   margin-right: 10px;
 }
 
@@ -1908,7 +1915,6 @@ section {
   width: 100%;
 }
 
-
 /*--------------------------------------------------------------
 # method
 --------------------------------------------------------------*/
@@ -1955,9 +1961,6 @@ section {
   text-align: center;
   margin-bottom: 40px;
 }
-
-
-
 
 /*--------------------------------------------------------------
 # certification
@@ -2007,7 +2010,7 @@ section {
 }
 
 .view-pdf-btn {
-  background-color: #151F4A;
+  background-color: #151f4a;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -2021,8 +2024,6 @@ section {
 .view-pdf-btn:hover {
   background-color: #5594a5;
 }
-
-
 
 /*--------------------------------------------------------------
 # contact
@@ -2099,7 +2100,12 @@ section {
 }
 
 .company-profile .profile-card:hover {
-  box-shadow: 12px 12px 20px rgba(21, 31, 74, 0.8);
+  box-shadow: 0 8px 20px rgba(21, 31, 74, 0.2);
+}
+
+.company-profile .card-header {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .company-profile h3 {
@@ -2115,7 +2121,7 @@ section {
 .company-profile .btn-download {
   display: inline-block;
   padding: 12px 24px;
-  background: #151F4A;
+  background: #151f4a;
   color: white;
   text-transform: uppercase;
   font-weight: 600;
@@ -2297,56 +2303,12 @@ section {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-
 /*--------------------------------------------------------------
 # gallery
 --------------------------------------------------------------*/
 .gallery {
-  padding: 60px 0;
-  background: #f7f7f7;
-}
-
-.gallery h2{
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.section-title {
-  text-align: center;
-}
-
-.gallery-slider {
-  width: 100%;
-  height: 400px; 
-  position: relative;
-}
-
-.swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
+  flex-direction: column;
 }
-
-.instagram-media {
-  width: 100%;
-  min-height: 400px;
-  border: 0;
-}
-
-.swiper-pagination {
-  bottom: 10px;
-}
-
-.swiper-button-prev,
-.swiper-button-next {
-  color: #333; 
-  transition: 0.3s;
-}
-
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-  color: #000; 
-}
-
-
