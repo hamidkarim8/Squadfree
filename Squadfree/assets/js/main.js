@@ -203,6 +203,10 @@
    */
   new Swiper('.portfolio-details-slider', {
     speed: 400,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
     loop: true,
     autoplay: {
       delay: 5000,
@@ -220,6 +224,10 @@
    */
   new Swiper('.testimonials-slider', {
     speed: 600,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
     loop: true,
     autoplay: {
       delay: 5000,

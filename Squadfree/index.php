@@ -12,48 +12,32 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
-
     <div class="container" data-aos="fade-up">
-
       <section id="portfolio-details" class="portfolio-details">
-
         <div class="container">
-
           <div class="row justify-content-center">
-
             <div class="col-lg-8">
-
               <div class="portfolio-details-slider swiper">
-
                 <div class="swiper-wrapper align-items-center">
-
                   <div class="swiper-slide">
                     <img src="assets/img/bk.jpg" alt="">
                   </div>
-
                   <div class="swiper-slide">
                     <img src="assets/img/hero-bg.jpg" alt="">
                   </div>
-
-
                 </div>
-
-                <div class="swiper-pagination"></div>
-
+                <!-- Swiper Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div> <!-- Pagination -->
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </section>
-
     </div>
-
-    </div>
-  </section><!-- End Hero Section -->
+  </section>
+  <!-- End Hero Section -->
 
 
   <!-- ======= Location Section ======= -->
