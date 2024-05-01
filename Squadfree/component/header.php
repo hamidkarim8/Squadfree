@@ -50,7 +50,7 @@
           <li class="dropdown"><a class="nav-link scrollto"><span>Career</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="job.php">Job Opportunity</a></li>
-              <li><a href="protege.php">Protegee Apply</a></li>
+              <li><a href="protege.php">Protégé Apply</a></li>
             </ul>
           </li>
           <!-- <li class="dropdown megamenu"><a href="#"><span>Mega Menu</span> <i class="bi bi-chevron-down"></i></a>

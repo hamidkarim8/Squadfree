@@ -564,7 +564,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .section-title h2 {
@@ -2359,4 +2359,47 @@ section {
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------------------------------------------------------
+# Job Opportunity
+--------------------------------------------------------------*/
+.job-opportunity {
+  padding: 60px 0;
+  background: #f3f3f3;
+}
+
+.job-opportunity .section-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.job-opportunity .portfolio-details {
+  margin-top: 10px;
+}
+
+.job-opportunity .portfolio-details-slider {
+  padding: 10px 0;
+}
+
+.job-opportunity .slide-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333;
+  padding-top: 10px;
+}
+
+.job-opportunity h3 {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #151f4a;
+}
+
+.job-opportunity p {
+  font-size: 18px;
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
 }
