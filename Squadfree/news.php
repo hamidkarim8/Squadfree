@@ -42,7 +42,12 @@
                         <h3>ROYAL MALAYSIAN AIRFORCE VISIT TO G7 AEROSPACE HEADQUARTERS</h3>
                         <p>
                             <strong>21 March 2024</strong> - G7 Aerospace had the honour to welcome RMAF delegation led by Colonel Norazan to discuss the <strong>RMAF C130 AUP program</strong>.
-                            A key highlight of the session was the <strong>strategic partnership</strong> between RMAF, G7A, Honeywell, and ASB Avionics, focusing on innovative solutions to optimize aircraft performance.
+
+                            A key highlight of the session was the <strong>strategic partnership</strong> between RMAF, G7A, Honeywell, and ASB Avionics, which focused on providing <strong>innovative solutions</strong> to optimize aircraft performance.
+
+                            The RMAF delegation then toured our lab, gaining firsthand insights into the <strong>advanced technologies</strong> and rigorous testing processes employed by our team, witnessing advanced technologies and testing processes, ensuring the highest standards of quality and reliability in aerospace solutions.
+
+                            Through synergistic collaboration, G7A is dedicated to advancing aviation technology and meeting the evolving needs of the defense sector.
                         </p>
                     </div>
                 </div>
@@ -69,8 +74,11 @@
                     <div class="content">
                         <h3>ROYAL MALAYSIAN NAVY VISIT TO G7 AEROSPACE HEADQUARTERS</h3>
                         <p>
-                            <strong>22 March 2023</strong> - G7 Aerospace hosted a delegation from the Malaysian Navy, led by Panglima Laksma Ahmad Shafirudin Bin Abu Bakar, for an insightful session introducing G7A's capabilities.
-                            Following the session, the delegation toured our laboratory facilities, experiencing advanced technologies and rigorous testing processes.
+                            <strong>22 March 2023</strong> - G7 Aerospace had the privilege of hosting a delegation from the Malaysian Navy, led by Panglima Laksma Ahmad Shafirudin Bin Abu Bakar for an insightful session aimed at introducing them to G7A's capabilities, capacities, technology, and facilities. The meeting provided an opportunity to showcase our expertise in technology and solutions.
+
+                            Following the session, the delegation had a <strong>tour of our laboratory facilities</strong>. This immersive experience allowed them to witness firsthand the advanced technologies and rigorous testing processes that underpin our operations.
+
+                            The visit not only highlighted our <strong>commitment to excellence</strong> but also strengthened the bond between G7 Aerospace and the Malaysian Navy. We look forward to further collaboration and the opportunity to contribute to the Navy's mission with our innovative solutions and expertise.
                         </p>
                     </div>
                 </div>
