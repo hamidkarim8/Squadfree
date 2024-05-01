@@ -15,22 +15,12 @@
     <div class="container" data-aos="zoom-in">
 
       <div class="text-center">
-        <h3></h3>
+        <h3>Corporate Info</h3>
       </div>
 
     </div>
 
   </section><!-- End Corporate Info Section -->
-
-  <section id="subservices">
-    <div class="row justify-content-center">
-      <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-        <div class="icon-box" data-aos="fade-up">
-          <img src="assets/img/company-info.png" class="img-fluid subservices-img" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
 
 
 <!-- ======= Corporate Info Section ======= -->
@@ -38,7 +28,7 @@
   <div class="container">
 
     <div class="section-title" data-aos="fade-up">
-      <h2>Corporate Info</h2>
+      <h2>Corporate Video</h2>
       <p>Discover more about our company through our corporate video. Learn about our vision, mission, and the values that drive us.</p>
     </div>
 
