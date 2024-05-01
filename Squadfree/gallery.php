@@ -10,7 +10,7 @@
     <?php include './component/header.php' ?>
     <!-- End Header -->
 
-    <!-- ======= Corporate Info Section ======= -->
+    <!-- ======= Gallery Section ======= -->
     <section id="subservices" class="subservices">
         <div class="container" data-aos="zoom-in">
 
@@ -20,7 +20,7 @@
 
         </div>
 
-    </section><!-- End Corporate Info Section -->
+    </section><!-- End Gallery Section -->
 
 
 

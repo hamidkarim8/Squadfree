@@ -39,7 +39,7 @@
                         </div>
                         <div class="card-body">
                             <p>You can download G7 Aerospace company profile here.</p>
-                            <a href="assets/img/G7 Profile Apr2024.pdf" target="_blank" class="btn-download">View/Download PDF</a>
+                            <a href="assets/pdfs/G7 Profile Apr2024.pdf" target="_blank" class="btn-download">View/Download PDF</a>
                         </div>
                     </div>
                 </div>

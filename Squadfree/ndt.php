@@ -212,7 +212,7 @@
             <div class="icon"><i class="bx bx-award"></i></div>
             <h4>Certificate 1</h4>
             <p>AMO CAAM Cert G7A Variation 2024</p>
-            <a href="assets/img/AMO CAAM Cert G7A Variation 2024.pdf" target="_blank">
+            <a href="assets/pdfs/AMO CAAM Cert G7A Variation 2024.pdf" target="_blank">
               <button class="view-pdf-btn">View Certificate</button>
             </a>
           </div>
@@ -223,7 +223,7 @@
             <div class="icon"><i class="bx bx-medal"></i></div>
             <h4>Certificate 2</h4>
             <p>DT-APAC-MY-G7-Distributor-Cert</p>
-            <a href="assets/img/DT-APAC-MY-G7-Distributor-Cert.pdf" target="_blank">
+            <a href="assets/pdfs/DT-APAC-MY-G7-Distributor-Cert.pdf" target="_blank">
               <button class="view-pdf-btn">View Certificate</button>
             </a>
           </div>
@@ -234,7 +234,7 @@
             <div class="icon"><i class="bx bx-trophy"></i></div>
             <h4>Certificate 3</h4>
             <p>NDT TEAM ROSEBANK CERT</p>
-            <a href="assets/img/NDT TEAM ROSEBANK CERT.pdf" target="_blank">
+            <a href="assets/pdfs/NDT TEAM ROSEBANK CERT.pdf" target="_blank">
               <button class="view-pdf-btn">View Certificate</button>
             </a>
           </div>
@@ -325,7 +325,7 @@
               </p>
               <h3>Mohd Shazly</h3>
               <h4>MM</h4>
-              <a href="assets/img/20240429084051.pdf" target="_blank">
+              <a href="assets/pdfs/20240429084051.pdf" target="_blank">
                 <button class="view-pdf-btn mt-2">View Feedback Form</button>
               </a>
             </div>
@@ -341,7 +341,7 @@
               </p>
               <h3>Joshua Robinson</h3>
               <h4>Senior Maintenance Manager</h4>
-              <a href="assets/img/20240429084115.pdf" target="_blank">
+              <a href="assets/pdfs/20240429084115.pdf" target="_blank">
                 <button class="view-pdf-btn mt-2">View Feedback Form</button>
               </a>
             </div>
