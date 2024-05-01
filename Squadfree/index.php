@@ -20,16 +20,16 @@
               <div class="portfolio-details-slider swiper">
                 <div class="swiper-wrapper align-items-center">
                   <div class="swiper-slide">
-                    <img src="assets/img/bk.jpg" alt="">
+                    <img src="assets/img/bk.jpg" alt="" class="hero-image">
                   </div>
                   <div class="swiper-slide">
-                    <img src="assets/img/hero-bg.jpg" alt="">
+                    <img src="assets/img/hero-bg.jpg" alt="" class="hero-image">
                   </div>
                 </div>
                 <!-- Swiper Navigation -->
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div> <!-- Pagination -->
+                <div class="swiper-pagination"></div>
               </div>
             </div>
           </div>
@@ -38,6 +38,7 @@
     </div>
   </section>
   <!-- End Hero Section -->
+
 
 
   <!-- ======= Location Section ======= -->
