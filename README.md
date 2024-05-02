@@ -7,6 +7,9 @@ This project is designed to create a sleek and responsive landing page for G7 Ae
 
 **Features**
 **Responsive Design:** The landing page is designed to be mobile-friendly and adapt to various screen sizes.
+
 **PHP Backend:** The PHP scripts manage server-side processes like form submissions and dynamic content.
+
 **JavaScript Interactivity:** Includes interactive elements like sliders, pop-ups, and animations.
+
 **Custom CSS Styling:** The page has a modern look with custom styles to align with G7 Aerospace's branding.
